@@ -1,0 +1,111 @@
+/* ---BASE--- */
+*{
+    box-sizing: border-box; 
+    margin: 0; 
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+img{
+    display: block;
+}
+
+body{
+    background: linear-gradient(0.25turn, #77b3b8, #fadcb9);
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px; 
+    color: #fff;
+    line-height: 30px;
+}
+
+a{
+    color: #fff;
+}
+
+h1{
+    font-size: 40px;
+    line-height: 70px;
+}
+
+h3{
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.btn{
+    background: #d16c79;
+    color: #fff;
+    padding: 10px;
+    margin-top: 30px;
+    transition: all 0.2s;
+    cursor: pointer;
+    font-weight: bold;
+    line-height: 30px;
+    border-radius: 8px;
+    border: 1px solid #d16c79;
+    transition: all 0.3s ease-in-out;
+}
+
+.btn:hover{
+    transform: scale(1.1)
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px; 
+    
+    color: #fff;
+    align-items: center;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    color: #fff;
+    justify-content: center;
+    padding: 10px;
+    font-size: 16px;
+    bottom: 0;
+    margin: 20px auto;
+}
+
+footer img{
+    margin-right: 15px;
+}
+
+/* ---FARM--- */
+
+main{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 50px auto;
+}
+
+#farm{
+    border: 1px solid red;
+    width: 620px;
+    height: 340px;
+    background-image: url(../img/screen.jpg);
+    position: relative;
+}
+
+.chick{
+    width: 150px;
+    height: 130px;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    background: url(/img/chicken.png) no-repeat 20px 0;
+}
+
+.up{
+    transform: translate(0,-100px);
+    background: url(/img/chicken.png) no-repeat 20px -130px;
+    transition: all 0.2s ease;
+}
