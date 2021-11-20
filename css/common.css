@@ -88,7 +88,6 @@ main{
 }
 
 #farm{
-    border: 1px solid red;
     width: 620px;
     height: 340px;
     background-image: url(../img/screen.jpg);
@@ -101,11 +100,11 @@ main{
     bottom: 0;
     left: 0;
     position: absolute;
-    background: url(/img/chicken.png) no-repeat 20px 0;
-}
-
-.up{
-    transform: translate(0,-100px);
-    background: url(/img/chicken.png) no-repeat 20px -130px;
-    transition: all 0.2s ease;
+    transform: translateY(0);
+    transform: translateX(0);
+    background-image: url(/img/chicken.png);
+    background-repeat:  no-repeat;
+    background-position-x: 0;
+    background-position-y: 0;
+    transition: all 0.1s ease;
 }
