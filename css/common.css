@@ -102,7 +102,7 @@ main{
     position: absolute;
     transform: translateY(0);
     transform: translateX(0);
-    background-image: url(./img/chicken.png);
+    background-image: url(../img/chicken.png);
     background-repeat:  no-repeat;
     background-position-x: 0;
     background-position-y: 0;
